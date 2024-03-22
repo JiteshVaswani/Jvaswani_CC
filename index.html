@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Commision Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body bgcolor="grey">
+    <h1 id="FirstInput">INPUT</h1>
+    <form action="#">
+      <h1 id="firstBox">Commission Calculator</h1>
+
+      <label for="aName">Agent Name*:~</label>
+      <input type="text" id="aName" name="aName" />
+      <br />
+      <br />
+
+      <label for="aNum">Agent Number*:~</label>
+      <input type="text" id="aNum" name="aNum" placeholder="XX999999" />
+      <br />
+      <br />
+
+      <label for="aCity">Agent City*:~</label>
+      <input type="text" id="aCity" name="aCity" /><br /><br />
+
+      <label for="otherPhone">Total Cost of Phones Sold*:~ </label>
+      <span>$</span>
+      <input type="text" id="otherPhone" name="otherPhone" /><br /><br />
+
+      <label for="otherAccessories">Total Cost of Accessories Sold:~ </label>
+      <span>$</span>
+      <input
+        type="text"
+        id="otherAccessories"
+        name="otherAccessories"
+      /><br /><br />
+
+      <label for="commReceived"> Commision Received Till Date*~</label>
+      <span>$</span>
+      <input type="text" id="commReceived" name="commReceived" /><br /><br />
+
+      <input type="button" value="CALCULATE" onclick="countComm()" />
+
+      <p><span id="errorMsg"></span></p>
+    </form>
+    <br />
+
+    <h1 id="output">Output</h1>
+    <div class="container"> 
+      <p>Agent Name: <span id="aName"></span></p>
+      <p>Agent Number: <span id="aNum"></span></p>
+      <p>Agent City: <span id="aCity"></span></p>
+      <p>Total Sale: <span id="totalSale"></span></p>
+      <p>Total Commission: <span id="totalCommission"></span></p>
+      <p>Total Commission Recived: <span id="commReceived"></span></p>
+      <p>Total Commission Pending: <span id="pendingCommission"></span></p>
+    </div>
+  </body>
+</html>

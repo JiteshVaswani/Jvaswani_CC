@@ -1,0 +1,56 @@
+#FirstInput{
+    text-decoration: underline;
+    font-family: 'Times New Roman', sans-serif;
+    text-align: center;
+}
+
+#firstBox{
+    text-decoration: underline;
+    margin-top: 0px;
+    font-family:  'Times New Roman', sans-serif;
+}
+
+form{
+    border: 5px solid black;    
+    text-align: center;
+    margin: 127px;
+    margin-top: -14px;
+
+    
+}
+
+label{
+    width: 250px;
+    float: left;
+    font-size: 18px;
+    color:black;
+}
+
+input[type="submit"] {
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;}
+
+#output{
+    margin-top: -114px;
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Times New Roman', sans-serif;
+}
+
+.container{
+    border: 5px solid Red;
+    text-align: left;
+    margin: 127px;
+    margin-top: -10px;
+    padding-left: 50px;
+}
+
+.container span{
+    float: right;
+    padding-right: 50px ;
+}
+
+p{
+    font-size: 25px;
+}
